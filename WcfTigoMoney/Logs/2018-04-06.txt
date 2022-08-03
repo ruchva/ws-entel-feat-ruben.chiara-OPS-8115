@@ -1,0 +1,370 @@
+
+12:04:41: INFO
+        : clsNTigoWS
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+12:06:33: INFO
+        : clsNTigoWS
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:29:11: INFO
+        : clsNTigoWS
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:37:23: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:37:23: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:37:27: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>BBP0DBEOUL9ZS2FEL51F</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:38:17: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:38:17: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:38:18: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>WX83ECIH1IJ9M1V7HH93</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:38:35: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid> WX83ECIH1IJ9M1V7HH93 </urn:sessionid>
+                                    <urn:initiator> bm_pago_express </urn:initiator>
+                                    <urn:pin> BCC1531E208F0C04967CFF0D6706042176504DEE </urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:38:35: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:38:35: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:result>3</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:39:20: ERROR
+        : mscorlib
+        : La clave proporcionada no se encontró en el diccionario.
+   en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en Negocio.clsNTigoWS.Login() en e:\marco.mendoza\WorkspaceNet\WcfGanadero\Negocio\clsNTigoWs.cs:línea 96
+
+
+17:56:01: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:56:01: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:56:02: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>Y02BPHOMUEM0SKR3ZJ8N</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:56:02: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid> Y02BPHOMUEM0SKR3ZJ8N </urn:sessionid>
+                                    <urn:initiator> bm_pago_express </urn:initiator>
+                                    <urn:pin> 65D4A9D3B34087BD8C38F02545DC08DEECCF1313 </urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:56:02: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+17:56:02: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:result>3</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:56:02: ERROR
+        : mscorlib
+        : La clave proporcionada no se encontró en el diccionario.
+   en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en Negocio.clsNTigoWS.Login() en e:\marco.mendoza\WorkspaceNet\WcfGanadero\Negocio\clsNTigoWs.cs:línea 96
+
+
+17:58:04: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:58:04: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:58:04: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>7VG0FGXVV3A61SBBRD2A</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:58:04: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>7VG0FGXVV3A61SBBRD2A</urn:sessionid>
+                                    <urn:initiator>bm_pago_express</urn:initiator>
+                                    <urn:pin>F09CA78272A2F48605F5382992F0E392C21E8CFB</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:58:04: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+17:58:05: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12356868</ns5:transid><ns5:result>7</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:58:05: ERROR
+        : mscorlib
+        : La clave proporcionada no se encontró en el diccionario.
+   en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en Negocio.clsNTigoWS.Login() en e:\marco.mendoza\WorkspaceNet\WcfGanadero\Negocio\clsNTigoWs.cs:línea 96
+
+
+17:59:15: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:59:15: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+17:59:15: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>6A5W27QV4R4HKAT9HADG</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+17:59:15: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>6A5W27QV4R4HKAT9HADG</urn:sessionid>
+                                    <urn:initiator>bm_pago_express</urn:initiator>
+                                    <urn:pin>1B128089973C5FAE709558C0E64C7583F80CDF2C</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+17:59:15: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+17:59:15: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12356877</ns5:transid><ns5:result>7</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+18:00:44: ERROR
+        : mscorlib
+        : La clave proporcionada no se encontró en el diccionario.
+   en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en Negocio.clsNTigoWS.Login() en e:\marco.mendoza\WorkspaceNet\WcfGanadero\Negocio\clsNTigoWs.cs:línea 96
+
+
+18:05:21: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+18:05:21: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+18:05:21: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>191SQ5Q2JKY7NZJYPREE</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+18:05:21: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>191SQ5Q2JKY7NZJYPREE</urn:sessionid>
+                                    <urn:initiator>bm_pago_express</urn:initiator>
+                                    <urn:pin>3E53698BE7AB459839CAE1FE6D343EA1DCD51D9A</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+18:05:21: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+18:05:22: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12356878</ns5:transid><ns5:result>7</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+18:09:08: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+18:09:08: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+18:09:08: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>6IJIBCFD16I87CN1T0MQ</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+18:09:08: INFO
+        : clsNTigoWS.CreateSoapRequest
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>6IJIBCFD16I87CN1T0MQ</urn:sessionid>
+                                    <urn:initiator>bm_pago_express</urn:initiator>
+                                    <urn:pin>B16D0AF1797696696F022ADAFD9362A4FE89DFA4</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+18:09:08: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+18:09:08: INFO
+        : clsNTigoWS.CallWebService
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12357282</ns5:transid><ns5:result>7</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+

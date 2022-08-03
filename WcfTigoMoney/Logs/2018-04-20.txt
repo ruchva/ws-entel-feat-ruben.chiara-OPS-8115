@@ -1,0 +1,192 @@
+
+14:57:53: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:57:53: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+14:57:56: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>NSFO7KSE7A6HKX0BVG06</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:57:56: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>NSFO7KSE7A6HKX0BVG06</urn:sessionid>
+                                    <urn:initiator>BG_WALLET</urn:initiator>
+                                    <urn:pin>E6E1F69C27A1043319AAF6B656F262C095C5E0D4</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:57:56: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+14:57:57: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12463806</ns5:transid><ns5:result>0</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:57:57: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        
+                <urn:domesticRemit>
+                    <urn:domesticRemitRequest>
+                        <std:extra_trans_data>
+                            <misc:keyValuePairs>
+                                <misc:key>details</misc:key>
+                                <misc:value>9:BG|id:2700153|Sucursal:701|Agencia:701|Cajero:ACC</misc:value>
+                            </misc:keyValuePairs>
+                            <misc:keyValuePairs>
+                                <misc:key>national_id</misc:key>
+                                <misc:value>2920504</misc:value>
+                            </misc:keyValuePairs>
+                        </std:extra_trans_data>
+                        <urn:sessionid>NSFO7KSE7A6HKX0BVG06</urn:sessionid>
+                        <urn:to>70819487</urn:to>
+                        <urn:amount>100</urn:amount>
+                    </urn:domesticRemitRequest>
+                </urn:domesticRemit>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:57:57: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/domesticRemit
+
+
+14:57:58: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:domesticRemitResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:domesticRemitReturn><ns5:transid>12463858</ns5:transid><ns5:result>0</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:domesticRemitReturn></ns5:domesticRemitResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:57:58: INFO
+        : clsNTigoMoneyWS.ActualizarTranTigo
+        : UPDATE GANADERO.BMV_TIGO_MOVIMIENTOS 
+                            SET ESTADO=2, NROSESSION='NSFO7KSE7A6HKX0BVG06', VALOR_HASH='E6E1F69C27A1043319AAF6B656F262C095C5E0D4', TRANSIDLOGIN='12463806', TRANSID='12463858', RESULT_WS='0|'
+                            WHERE NRO_TRANSACCION='40.0'
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:createsession/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/createsession
+
+
+14:59:55: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:createsessionResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:createsessionReturn><ns5:sessionid>OWGMBSJA3UGPRAKUOJBS</ns5:sessionid><ns5:result>0</ns5:result><ns5:result_namespace>session</ns5:result_namespace></ns5:createsessionReturn></ns5:createsessionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:login>
+                                <urn:loginRequest>
+                                    <urn:sessionid>OWGMBSJA3UGPRAKUOJBS</urn:sessionid>
+                                    <urn:initiator>BG_WALLET</urn:initiator>
+                                    <urn:pin>1A3D9498ABFA41AAAE86BECBC5D47C8D76C9ADEE</urn:pin>
+                                </urn:loginRequest>
+                            </urn:login>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/login
+
+
+14:59:55: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:loginResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:loginReturn><ns5:transid>12463859</ns5:transid><ns5:result>0</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:loginReturn></ns5:loginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateSoapRequest.DatosEnvio
+        : <?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:UMARKETSCWS"
+xmlns:std="http://www.utiba.com/delirium/ws/StdQuery" xmlns:misc="http://www.utiba.com/delirium/ws/Misc">
+    <soapenv:Header/>
+    <soapenv:Body>
+        
+                <urn:domesticRemit>
+                    <urn:domesticRemitRequest>
+                        <std:extra_trans_data>
+                            <misc:keyValuePairs>
+                                <misc:key>details</misc:key>
+                                <misc:value>9:BG|id:2700190|Sucursal:701|Agencia:701|Cajero:ACC</misc:value>
+                            </misc:keyValuePairs>
+                            <misc:keyValuePairs>
+                                <misc:key>national_id</misc:key>
+                                <misc:value>12345</misc:value>
+                            </misc:keyValuePairs>
+                        </std:extra_trans_data>
+                        <urn:sessionid>OWGMBSJA3UGPRAKUOJBS</urn:sessionid>
+                        <urn:to>78196833</urn:to>
+                        <urn:amount>60</urn:amount>
+                    </urn:domesticRemitRequest>
+                </urn:domesticRemit>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoWS.CreateWebRequest
+        : Url: https://10.252.100.151:8443/services/umarketsc.wsdl, Metodo: urn:UMARKETSCWS/domesticRemit
+
+
+14:59:55: INFO
+        : clsNTigoWS.CallWebService.Respuesta
+        : <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns5:domesticRemitResponse xmlns="http://www.utiba.com/delirium/ws/TypedQuery" xmlns:ns3="http://www.utiba.com/delirium/ws/Misc" xmlns:ns4="http://www.utiba.com/delirium/ws/StdQuery" xmlns:ns5="urn:UMARKETSCWS"><ns5:domesticRemitReturn><ns5:transid>12463874</ns5:transid><ns5:result>0</ns5:result><ns5:result_namespace>umarket</ns5:result_namespace></ns5:domesticRemitReturn></ns5:domesticRemitResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+14:59:55: INFO
+        : clsNTigoMoneyWS.ActualizarTranTigo
+        : UPDATE GANADERO.BMV_TIGO_MOVIMIENTOS 
+                            SET ESTADO=2, NROSESSION='OWGMBSJA3UGPRAKUOJBS', VALOR_HASH='1A3D9498ABFA41AAAE86BECBC5D47C8D76C9ADEE', TRANSIDLOGIN='12463859', TRANSID='12463874', RESULT_WS='0|'
+                            WHERE NRO_TRANSACCION='41.0'
+

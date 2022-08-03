@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ServiciosEntel/" name="ServiciosPostEntelService" targetNamespace="http://ServiciosEntel/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://appweb.entelsn.local:7789/ServicioPostPago/ServiciosPostEntelService?xsd=1" namespace="http://ServiciosEntel/" />
+    </xsd:schema>
+  </types>
+  <message name="BuscarCliente">
+    <part name="parameters" element="tns:BuscarCliente" />
+  </message>
+  <message name="BuscarClienteResponse">
+    <part name="parameters" element="tns:BuscarClienteResponse" />
+  </message>
+  <message name="DetalleCliente">
+    <part name="parameters" element="tns:DetalleCliente" />
+  </message>
+  <message name="DetalleClienteResponse">
+    <part name="parameters" element="tns:DetalleClienteResponse" />
+  </message>
+  <message name="ConsultaPrepago">
+    <part name="parameters" element="tns:ConsultaPrepago" />
+  </message>
+  <message name="ConsultaPrepagoResponse">
+    <part name="parameters" element="tns:ConsultaPrepagoResponse" />
+  </message>
+  <message name="PagoVenta">
+    <part name="parameters" element="tns:PagoVenta" />
+  </message>
+  <message name="PagoVentaResponse">
+    <part name="parameters" element="tns:PagoVentaResponse" />
+  </message>
+  <message name="Impresion">
+    <part name="parameters" element="tns:Impresion" />
+  </message>
+  <message name="ImpresionResponse">
+    <part name="parameters" element="tns:ImpresionResponse" />
+  </message>
+  <message name="obtenerReporte">
+    <part name="parameters" element="tns:obtenerReporte" />
+  </message>
+  <message name="obtenerReporteResponse">
+    <part name="parameters" element="tns:obtenerReporteResponse" />
+  </message>
+  <message name="reporteTransaccion">
+    <part name="parameters" element="tns:reporteTransaccion" />
+  </message>
+  <message name="reporteTransaccionResponse">
+    <part name="parameters" element="tns:reporteTransaccionResponse" />
+  </message>
+  <portType name="ServiciosPostEntel">
+    <operation name="BuscarCliente">
+      <input message="tns:BuscarCliente" />
+      <output message="tns:BuscarClienteResponse" />
+    </operation>
+    <operation name="DetalleCliente">
+      <input message="tns:DetalleCliente" />
+      <output message="tns:DetalleClienteResponse" />
+    </operation>
+    <operation name="ConsultaPrepago">
+      <input message="tns:ConsultaPrepago" />
+      <output message="tns:ConsultaPrepagoResponse" />
+    </operation>
+    <operation name="PagoVenta">
+      <input message="tns:PagoVenta" />
+      <output message="tns:PagoVentaResponse" />
+    </operation>
+    <operation name="Impresion">
+      <input message="tns:Impresion" />
+      <output message="tns:ImpresionResponse" />
+    </operation>
+    <operation name="obtenerReporte">
+      <input message="tns:obtenerReporte" />
+      <output message="tns:obtenerReporteResponse" />
+    </operation>
+    <operation name="reporteTransaccion">
+      <input message="tns:reporteTransaccion" />
+      <output message="tns:reporteTransaccionResponse" />
+    </operation>
+  </portType>
+  <binding name="ServiciosPostEntelPortBinding" type="tns:ServiciosPostEntel">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="BuscarCliente">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="DetalleCliente">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ConsultaPrepago">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="PagoVenta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Impresion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="obtenerReporte">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="reporteTransaccion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServiciosPostEntelService">
+    <port name="ServiciosPostEntelPort" binding="tns:ServiciosPostEntelPortBinding">
+      <soap:address location="https://appweb.entelsn.local:7789/ServicioPostPago/ServiciosPostEntelService" />
+    </port>
+  </service>
+</definitions>
